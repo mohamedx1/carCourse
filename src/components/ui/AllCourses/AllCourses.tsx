@@ -23,7 +23,10 @@ export default function AllCourses() {
     <div className='mb-8'>
       <div className='flex items-center justify-between mb-6'>
         <h2 className='text-xl font-bold text-gray-900'>All Courses</h2>
-        <Button variant='ghost' className='text-purple-600'>
+        <Button
+          variant='ghost'
+          className='text-primary font-semibold hover:bg-primary-50 hover:text-primary'
+        >
           View all
         </Button>
       </div>

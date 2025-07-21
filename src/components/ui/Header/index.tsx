@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <header className='px-4 py-3 md:px-6 lg:px-8  '>
-        <div className='flex flex-col gap-4 md:flex-row md:items-center md:justify-between container border-b'>
+        <div className='flex flex-col gap-4 md:flex-row md:items-center md:justify-between  border-b'>
           <div>
             <h1 className='text-lg sm:text-2xl font-bold text-gray-900 mb-1'>
               Good morning {Fname},
